@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from flask_ask import Ask, statement, question
 
-from els_helper import get_next_available_time, do_booking
+from helpers.els import get_next_available_time, do_booking
 
 app = Flask(__name__)
 ask = Ask(app, '/')

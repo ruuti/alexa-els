@@ -1,7 +1,7 @@
 import os
 from ELSPy.ELS import ELS
 from datetime import datetime, timedelta
-from date_helper import get_date_str, is_upcoming, format_date
+from helpers.date import get_date_str, is_upcoming, format_date
 
 """
 Returns boolean if slot should is bookable
