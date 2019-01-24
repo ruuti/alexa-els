@@ -1,0 +1,5 @@
+next_available: Next available time is {{ time }}. Would you like me to book it for you?
+
+not_found: I could not find any available times
+
+booked: Sure, it's now booked so you can go and do your laundry {{ date }} at {{ time }}
